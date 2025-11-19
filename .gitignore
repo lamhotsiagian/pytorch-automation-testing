@@ -1,0 +1,95 @@
+# ----------------------------------------
+# Python
+# ----------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Byte-compiled / cache / logs
+*.log
+*.out
+*.err
+*.pid
+
+# Distribution / packaging
+build/
+dist/
+develop-eggs/
+.eggs/
+*.egg-info/
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.coverage
+.coverage.*
+*.cover
+htmlcov/
+pytest_cache/
+.pytest_cache/
+.tox/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# MyPy / Pytype / Pylint
+.mypy_cache/
+.pytype/
+pylint.log
+
+# PyCharm / VSCode
+.idea/
+*.iml
+.vscode/
+
+# MacOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code local settings
+.vscode/
+.history/
+
+# ----------------------------------------
+# Project specific
+# ----------------------------------------
+# Local data files
+data/
+*.csv
+*.tsv
+
+# Model checkpoints
+*.pt
+*.pth
+checkpoints/
+
+# TensorBoard logs
+runs/
+
+# ignore python builds
+*.pyd
+
+# ----------------------------------------
+# End
+# ----------------------------------------
+
